@@ -17,12 +17,13 @@
 .navbar-brand{
     margin-left: .3rem !important;
 }
-.nav-link:hover{
+.nav-link{
     display: inline-block;
-    padding: .5rem;
-    background-color: var(--primaryLight);
-    color: var(--secondaryTextColor);
+    padding: .5rem 1rem !important;
     border-radius: .5rem;
+}
+.nav-link:hover{
+    background-color: var(--primaryLight);
 }
 /* Navbar style starts */
 
